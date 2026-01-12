@@ -20,21 +20,21 @@
 
         layer_0 {
             bindings = <
-&kp ESC           &kp N1     &kp N2        &kp N3         &kp N4          &kp N5                           &kp N6          &kp N7  &kp N8     &kp N9    &kp N0                &kp MINUS
-&kp TAB           &kp Q      &kp W         &kp E          &kp R           &kp T                            &kp Y           &kp U   &kp I      &kp O     &kp P                 &kp BSPC
-&kp LEFT_CONTROL  &kp A      &kp S         &kp D          &kp F           &kp G      &kp EQUAL  &kp GRAVE  &kp H           &kp J   &kp K      &kp L     &kp SEMI              &kp ENTER
-&kp LSHFT         &kp Z      &kp X         &kp C          &kp V           &kp B      &mkp LCLK  &mkp RCLK  &kp N           &kp M   &kp COMMA  &kp DOT   &mt RIGHT_SHIFT FSLH  &kp RSHFT
-&kp LCTRL         &kp LCTRL  &kp LEFT_ALT  &kp LEFT_META  &kp LANGUAGE_2  &kp SPACE  &mkp LCLK  &kp SPACE  &kp LANGUAGE_1  &none   &none      &kp RGUI  &kp RIGHT_ALT         &kp RCTRL
+&kp ESC           &kp N1  &kp N2        &kp N3         &kp N4          &kp N5                           &kp N6          &kp N7  &kp N8     &kp N9    &kp N0                &kp MINUS
+&kp TAB           &kp Q   &kp W         &kp E          &kp R           &kp T                            &kp Y           &kp U   &kp I      &kp O     &kp P                 &kp BSPC
+&kp LEFT_CONTROL  &kp A   &kp S         &kp D          &kp F           &kp G      &kp EQUAL  &kp GRAVE  &kp H           &kp J   &kp K      &kp L     &kp SEMI              &kp ENTER
+&kp LSHFT         &kp Z   &kp X         &kp C          &kp V           &kp B      &mkp LCLK  &mkp RCLK  &kp N           &kp M   &kp COMMA  &kp DOT   &mt RIGHT_SHIFT FSLH  &kp RSHFT
+&to 1             &to 2   &kp LEFT_ALT  &kp LEFT_META  &kp LANGUAGE_2  &kp SPACE  &mkp LCLK  &kp SPACE  &kp LANGUAGE_1  &none   &none      &kp RGUI  &to 2                 &to 1
             >;
         };
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans    &trans     &trans  &kp BACKSLASH
+&trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans    &trans     &trans  &trans
+&trans  &trans  &trans  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &mkp LCLK  &kp UP    &mkp RCLK  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans    &trans     &trans  &trans
             >;
         };
 
