@@ -1,9 +1,9 @@
+#include <input/processors.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <input/processors.dtsi>
 
 / {
     trackball_listener {
@@ -32,7 +32,7 @@
 &kp TAB           &kp Q   &kp W         &kp E          &kp R           &kp T                            &kp Y           &kp U   &kp I      &kp O     &kp P                 &kp BSPC
 &kp LEFT_CONTROL  &kp A   &kp S         &kp D          &kp F           &kp G      &kp EQUAL  &kp GRAVE  &kp H           &kp J   &kp K      &kp L     &kp SEMI              &kp ENTER
 &kp LSHFT         &kp Z   &kp X         &kp C          &kp V           &kp B      &mkp LCLK  &mkp RCLK  &kp N           &kp M   &kp COMMA  &kp DOT   &mt RIGHT_SHIFT FSLH  &kp RSHFT
-&to 1             &to 2   &kp LEFT_ALT  &kp LEFT_META  &kp LANGUAGE_2  &kp SPACE  &mkp LCLK  &kp SPACE  &kp LANGUAGE_1  &none   &none      &kp RGUI  &to 2                 &to 1
+&mo 1             &mo 2   &kp LEFT_ALT  &kp LEFT_META  &kp LANGUAGE_2  &kp SPACE  &mkp LCLK  &kp SPACE  &kp LANGUAGE_1  &none   &none      &kp RGUI  &mo 2                 &mo 1
             >;
         };
 
